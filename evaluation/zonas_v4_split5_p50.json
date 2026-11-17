@@ -1,0 +1,2141 @@
+{
+ "version": "4.0-borrador",
+ "reglas": "docs/REGLAS_ZONAS_v4.md (firmadas 17/11/2026)",
+ "generado": "2026-11-17",
+ "insumos": {
+  "focos": "FIRMS VIIRS S-NPP 2012–2024 Argentina + Falkland_Islands",
+  "ecorregiones": "MAyDS ecoregiones2021",
+  "unidades": "Oyarzabal et al. 2018 Apéndice 3",
+  "pozos": "SE Capítulo IV – Pozos (85856 con coordenadas)"
+ },
+ "zonas": {
+  "Buenos Aires": [
+   {
+    "zid": "-33.94_-59.05",
+    "lat": -33.94,
+    "lon": -59.05,
+    "regimen": "Delta e Islas del Parana",
+    "unidad": null,
+    "n_focos": 16317,
+    "peso": 0.2092,
+    "r50_km": 20,
+    "r90_km": 43,
+    "anio_top": 2022,
+    "anio_top_pct": 25,
+    "focos_15km": 5552,
+    "correccion": null,
+    "fijas_pct": 3.7,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-39.43_-62.87",
+    "lat": -39.43,
+    "lon": -62.87,
+    "regimen": "Espinal",
+    "unidad": null,
+    "n_focos": 14528,
+    "peso": 0.1863,
+    "r50_km": 59,
+    "r90_km": 126,
+    "anio_top": 2017,
+    "anio_top_pct": 20,
+    "focos_15km": 426,
+    "correccion": null,
+    "fijas_pct": 4.1,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-36.44_-58.79",
+    "lat": -36.44,
+    "lon": -58.79,
+    "regimen": "Pampa",
+    "unidad": "33 Pampa Deprimida",
+    "n_focos": 12944,
+    "peso": 0.166,
+    "r50_km": 141,
+    "r90_km": 229,
+    "anio_top": 2022,
+    "anio_top_pct": 10,
+    "focos_15km": 70,
+    "correccion": null,
+    "fijas_pct": 0.6,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-38.07_-60.33",
+    "lat": -38.07,
+    "lon": -60.33,
+    "regimen": "Pampa",
+    "unidad": "34 Pampa Austral",
+    "n_focos": 12061,
+    "peso": 0.1547,
+    "r50_km": 140,
+    "r90_km": 211,
+    "anio_top": 2014,
+    "anio_top_pct": 13,
+    "focos_15km": 38,
+    "correccion": null,
+    "fijas_pct": 2.1,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-34.56_-59.13",
+    "lat": -34.56,
+    "lon": -59.13,
+    "regimen": "Pampa",
+    "unidad": "30 Pampa Ondulada",
+    "n_focos": 11659,
+    "peso": 0.1495,
+    "r50_km": 73,
+    "r90_km": 135,
+    "anio_top": 2022,
+    "anio_top_pct": 14,
+    "focos_15km": 386,
+    "correccion": null,
+    "fijas_pct": 10.9,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-35.32_-61.59",
+    "lat": -35.32,
+    "lon": -61.59,
+    "regimen": "Pampa",
+    "unidad": "31 Pampa Interior Plana",
+    "n_focos": 10472,
+    "peso": 0.1343,
+    "r50_km": 99,
+    "r90_km": 166,
+    "anio_top": 2023,
+    "anio_top_pct": 15,
+    "focos_15km": 71,
+    "correccion": null,
+    "fijas_pct": 0.5,
+    "pureza": 1.0
+   }
+  ],
+  "Catamarca": [
+   {
+    "zid": "-28.07_-66.04",
+    "lat": -28.07,
+    "lon": -66.04,
+    "regimen": "Yungas",
+    "unidad": null,
+    "n_focos": 4971,
+    "peso": 0.3021,
+    "r50_km": 54,
+    "r90_km": 78,
+    "anio_top": 2017,
+    "anio_top_pct": 24,
+    "focos_15km": 167,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-27.94_-66.47",
+    "lat": -27.94,
+    "lon": -66.47,
+    "regimen": "Monte de Sierras y Bolsones",
+    "unidad": null,
+    "n_focos": 4320,
+    "peso": 0.2625,
+    "r50_km": 82,
+    "r90_km": 132,
+    "anio_top": 2017,
+    "anio_top_pct": 27,
+    "focos_15km": 4,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-28.55_-65.65",
+    "lat": -28.55,
+    "lon": -65.65,
+    "regimen": "Chaco Seco",
+    "unidad": "9 Chaco Arido",
+    "n_focos": 4100,
+    "peso": 0.2491,
+    "r50_km": 38,
+    "r90_km": 101,
+    "anio_top": 2020,
+    "anio_top_pct": 20,
+    "focos_15km": 469,
+    "correccion": {
+     "de": [
+      -28.71,
+      -65.58
+     ],
+     "motivo": "fuera"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-28.35_-65.15",
+    "lat": -28.35,
+    "lon": -65.15,
+    "regimen": "Chaco Seco",
+    "unidad": "2 Selva de Transicion",
+    "n_focos": 2057,
+    "peso": 0.125,
+    "r50_km": 35,
+    "r90_km": 58,
+    "anio_top": 2020,
+    "anio_top_pct": 15,
+    "focos_15km": 296,
+    "correccion": {
+     "de": [
+      -28.37,
+      -65.3
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 4.5,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-27.35_-66.35",
+    "lat": -27.35,
+    "lon": -66.35,
+    "regimen": "Altos Andes",
+    "unidad": null,
+    "n_focos": 522,
+    "peso": 0.0317,
+    "r50_km": 18,
+    "r90_km": 229,
+    "anio_top": 2014,
+    "anio_top_pct": 27,
+    "focos_15km": 824,
+    "correccion": {
+     "de": [
+      -27.07,
+      -66.66
+     ],
+     "motivo": "fuera"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-26.73_-67.50",
+    "lat": -26.73,
+    "lon": -67.5,
+    "regimen": "Puna",
+    "unidad": null,
+    "n_focos": 487,
+    "peso": 0.0296,
+    "r50_km": 55,
+    "r90_km": 145,
+    "anio_top": 2014,
+    "anio_top_pct": 21,
+    "focos_15km": 20,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Chaco": [
+   {
+    "zid": "-26.24_-61.13",
+    "lat": -26.24,
+    "lon": -61.13,
+    "regimen": "Chaco Seco",
+    "unidad": null,
+    "n_focos": 131470,
+    "peso": 0.5676,
+    "r50_km": 61,
+    "r90_km": 145,
+    "anio_top": 2020,
+    "anio_top_pct": 15,
+    "focos_15km": 4749,
+    "correccion": null,
+    "fijas_pct": 1.3,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-27.13_-59.68",
+    "lat": -27.13,
+    "lon": -59.68,
+    "regimen": "Chaco Humedo",
+    "unidad": null,
+    "n_focos": 87900,
+    "peso": 0.3795,
+    "r50_km": 80,
+    "r90_km": 131,
+    "anio_top": 2020,
+    "anio_top_pct": 27,
+    "focos_15km": 1666,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-27.85_-58.95",
+    "lat": -27.85,
+    "lon": -58.95,
+    "regimen": "Delta e Islas del Parana",
+    "unidad": null,
+    "n_focos": 12254,
+    "peso": 0.0529,
+    "r50_km": 31,
+    "r90_km": 106,
+    "anio_top": 2020,
+    "anio_top_pct": 40,
+    "focos_15km": 4163,
+    "correccion": {
+     "de": [
+      -27.5,
+      -58.81
+     ],
+     "motivo": "fuera"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Chubut": [
+   {
+    "zid": "-42.85_-71.68",
+    "lat": -42.85,
+    "lon": -71.68,
+    "regimen": "Bosques Patagonicos",
+    "unidad": null,
+    "n_focos": 9476,
+    "peso": 0.6716,
+    "r50_km": 54,
+    "r90_km": 151,
+    "anio_top": 2015,
+    "anio_top_pct": 62,
+    "focos_15km": 1151,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-42.85_-70.35",
+    "lat": -42.85,
+    "lon": -70.35,
+    "regimen": "Estepa Patagonica",
+    "unidad": null,
+    "n_focos": 2499,
+    "peso": 0.1771,
+    "r50_km": 103,
+    "r90_km": 376,
+    "anio_top": 2019,
+    "anio_top_pct": 30,
+    "focos_15km": 85,
+    "correccion": {
+     "de": [
+      -43.65,
+      -69.98
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 23.2,
+    "pureza": 1.0,
+    "estacionalidad": {
+     "limpios": 64,
+     "fijos": 44
+    }
+   },
+   {
+    "zid": "-42.43_-65.14",
+    "lat": -42.43,
+    "lon": -65.14,
+    "regimen": "Monte de Llanuras y Mesetas",
+    "unidad": null,
+    "n_focos": 2134,
+    "peso": 0.1513,
+    "r50_km": 29,
+    "r90_km": 102,
+    "anio_top": 2022,
+    "anio_top_pct": 40,
+    "focos_15km": 237,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Córdoba": [
+   {
+    "zid": "-31.33_-64.65",
+    "lat": -31.33,
+    "lon": -64.65,
+    "regimen": "Chaco Seco",
+    "unidad": "7 Chaco Serrano",
+    "n_focos": 19581,
+    "peso": 0.306,
+    "r50_km": 70,
+    "r90_km": 161,
+    "anio_top": 2020,
+    "anio_top_pct": 33,
+    "focos_15km": 469,
+    "correccion": null,
+    "fijas_pct": 0.8,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-30.12_-62.95",
+    "lat": -30.12,
+    "lon": -62.95,
+    "regimen": "Chaco Seco",
+    "unidad": "11 Banados de Mar Chiquita-Espartillares y zampales",
+    "n_focos": 17270,
+    "peso": 0.2699,
+    "r50_km": 20,
+    "r90_km": 33,
+    "anio_top": 2020,
+    "anio_top_pct": 15,
+    "focos_15km": 5634,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-31.84_-63.65",
+    "lat": -31.84,
+    "lon": -63.65,
+    "regimen": "Espinal",
+    "unidad": null,
+    "n_focos": 11257,
+    "peso": 0.1759,
+    "r50_km": 117,
+    "r90_km": 181,
+    "anio_top": 2013,
+    "anio_top_pct": 17,
+    "focos_15km": 107,
+    "correccion": null,
+    "fijas_pct": 1.7,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-31.76_-64.78",
+    "lat": -31.76,
+    "lon": -64.78,
+    "regimen": "Chaco Seco",
+    "unidad": "8 Pastizales de Altura",
+    "n_focos": 10677,
+    "peso": 0.1669,
+    "r50_km": 67,
+    "r90_km": 107,
+    "anio_top": 2020,
+    "anio_top_pct": 39,
+    "focos_15km": 431,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-33.46_-63.22",
+    "lat": -33.46,
+    "lon": -63.22,
+    "regimen": "Pampa",
+    "unidad": null,
+    "n_focos": 5206,
+    "peso": 0.0814,
+    "r50_km": 114,
+    "r90_km": 166,
+    "anio_top": 2020,
+    "anio_top_pct": 14,
+    "focos_15km": 86,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Corrientes": [
+   {
+    "zid": "-28.33_-58.04",
+    "lat": -28.33,
+    "lon": -58.04,
+    "regimen": "Esteros del Ibera",
+    "unidad": null,
+    "n_focos": 106970,
+    "peso": 0.4137,
+    "r50_km": 84,
+    "r90_km": 166,
+    "anio_top": 2022,
+    "anio_top_pct": 26,
+    "focos_15km": 1745,
+    "correccion": null,
+    "fijas_pct": 2.7,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-28.85_-56.85",
+    "lat": -28.85,
+    "lon": -56.85,
+    "regimen": "Campos y Malezales",
+    "unidad": "28 Malezales",
+    "n_focos": 71137,
+    "peso": 0.2751,
+    "r50_km": 53,
+    "r90_km": 101,
+    "anio_top": 2020,
+    "anio_top_pct": 12,
+    "focos_15km": 2917,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-29.58_-58.15",
+    "lat": -29.58,
+    "lon": -58.15,
+    "regimen": "Espinal",
+    "unidad": null,
+    "n_focos": 31460,
+    "peso": 0.1217,
+    "r50_km": 61,
+    "r90_km": 99,
+    "anio_top": 2020,
+    "anio_top_pct": 14,
+    "focos_15km": 678,
+    "correccion": null,
+    "fijas_pct": 0.3,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-28.35_-59.05",
+    "lat": -28.35,
+    "lon": -59.05,
+    "regimen": "Delta e Islas del Parana",
+    "unidad": null,
+    "n_focos": 21832,
+    "peso": 0.0844,
+    "r50_km": 139,
+    "r90_km": 230,
+    "anio_top": 2020,
+    "anio_top_pct": 39,
+    "focos_15km": 3336,
+    "correccion": {
+     "de": [
+      -28.55,
+      -58.62
+     ],
+     "motivo": "fuera"
+    },
+    "fijas_pct": 0.4,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-28.09_-56.13",
+    "lat": -28.09,
+    "lon": -56.13,
+    "regimen": "Campos y Malezales",
+    "unidad": "27 Campos y Urundayzales",
+    "n_focos": 19676,
+    "peso": 0.0761,
+    "r50_km": 33,
+    "r90_km": 55,
+    "anio_top": 2016,
+    "anio_top_pct": 11,
+    "focos_15km": 2828,
+    "correccion": null,
+    "fijas_pct": 0.8,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-27.54_-58.49",
+    "lat": -27.54,
+    "lon": -58.49,
+    "regimen": "Chaco Humedo",
+    "unidad": null,
+    "n_focos": 7476,
+    "peso": 0.0289,
+    "r50_km": 19,
+    "r90_km": 27,
+    "anio_top": 2020,
+    "anio_top_pct": 24,
+    "focos_15km": 2295,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Entre Ríos": [
+   {
+    "zid": "-33.20_-59.80",
+    "lat": -33.2,
+    "lon": -59.8,
+    "regimen": "Delta e Islas del Parana",
+    "unidad": null,
+    "n_focos": 72487,
+    "peso": 0.6274,
+    "r50_km": 55,
+    "r90_km": 123,
+    "anio_top": 2020,
+    "anio_top_pct": 43,
+    "focos_15km": 2304,
+    "correccion": null,
+    "fijas_pct": 0.4,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-31.03_-58.93",
+    "lat": -31.03,
+    "lon": -58.93,
+    "regimen": "Espinal",
+    "unidad": null,
+    "n_focos": 32808,
+    "peso": 0.2839,
+    "r50_km": 76,
+    "r90_km": 102,
+    "anio_top": 2020,
+    "anio_top_pct": 12,
+    "focos_15km": 211,
+    "correccion": null,
+    "fijas_pct": 3.5,
+    "pureza": 0.98
+   },
+   {
+    "zid": "-32.64_-59.08",
+    "lat": -32.64,
+    "lon": -59.08,
+    "regimen": "Pampa",
+    "unidad": null,
+    "n_focos": 10248,
+    "peso": 0.0887,
+    "r50_km": 77,
+    "r90_km": 97,
+    "anio_top": 2020,
+    "anio_top_pct": 25,
+    "focos_15km": 254,
+    "correccion": null,
+    "fijas_pct": 0.6,
+    "pureza": 1.0
+   }
+  ],
+  "Formosa": [
+   {
+    "zid": "-25.35_-58.68",
+    "lat": -25.35,
+    "lon": -58.68,
+    "regimen": "Chaco Humedo",
+    "unidad": "14 Chaco Humedo con Bosques, Pajonales y Palmares de Caranday",
+    "n_focos": 172558,
+    "peso": 0.4658,
+    "r50_km": 71,
+    "r90_km": 107,
+    "anio_top": 2020,
+    "anio_top_pct": 23,
+    "focos_15km": 4286,
+    "correccion": null,
+    "fijas_pct": 0.7,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-24.80_-60.55",
+    "lat": -24.8,
+    "lon": -60.55,
+    "regimen": "Chaco Seco",
+    "unidad": "13 Chaco Subhumedo",
+    "n_focos": 110856,
+    "peso": 0.2993,
+    "r50_km": 56,
+    "r90_km": 103,
+    "anio_top": 2020,
+    "anio_top_pct": 19,
+    "focos_15km": 4767,
+    "correccion": null,
+    "fijas_pct": 0.2,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-23.70_-61.50",
+    "lat": -23.7,
+    "lon": -61.5,
+    "regimen": "Chaco Seco",
+    "unidad": "12 Chaco Semiarido",
+    "n_focos": 38187,
+    "peso": 0.1031,
+    "r50_km": 48,
+    "r90_km": 83,
+    "anio_top": 2013,
+    "anio_top_pct": 16,
+    "focos_15km": 2150,
+    "correccion": null,
+    "fijas_pct": 1.9,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-26.06_-58.88",
+    "lat": -26.06,
+    "lon": -58.88,
+    "regimen": "Chaco Humedo",
+    "unidad": "15 Chaco Humedo con Bosques y Canadas",
+    "n_focos": 35923,
+    "peso": 0.097,
+    "r50_km": 42,
+    "r90_km": 83,
+    "anio_top": 2020,
+    "anio_top_pct": 25,
+    "focos_15km": 3266,
+    "correccion": null,
+    "fijas_pct": 0.2,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-26.35_-58.25",
+    "lat": -26.35,
+    "lon": -58.25,
+    "regimen": "Delta e Islas del Parana",
+    "unidad": null,
+    "n_focos": 12894,
+    "peso": 0.0348,
+    "r50_km": 45,
+    "r90_km": 105,
+    "anio_top": 2020,
+    "anio_top_pct": 32,
+    "focos_15km": 3714,
+    "correccion": {
+     "de": [
+      -26.17,
+      -58.05
+     ],
+     "motivo": "fuera"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Jujuy": [
+   {
+    "zid": "-24.03_-64.67",
+    "lat": -24.03,
+    "lon": -64.67,
+    "regimen": "Chaco Seco",
+    "unidad": null,
+    "n_focos": 14009,
+    "peso": 0.5436,
+    "r50_km": 35,
+    "r90_km": 63,
+    "anio_top": 2013,
+    "anio_top_pct": 28,
+    "focos_15km": 1762,
+    "correccion": null,
+    "fijas_pct": 0.5,
+    "pureza": 0.99
+   },
+   {
+    "zid": "-23.75_-64.65",
+    "lat": -23.75,
+    "lon": -64.65,
+    "regimen": "Yungas",
+    "unidad": null,
+    "n_focos": 10422,
+    "peso": 0.4044,
+    "r50_km": 22,
+    "r90_km": 78,
+    "anio_top": 2020,
+    "anio_top_pct": 27,
+    "focos_15km": 4453,
+    "correccion": {
+     "de": [
+      -23.8,
+      -64.62
+     ],
+     "motivo": "fuera"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 0.99
+   },
+   {
+    "zid": "-22.85_-66.05",
+    "lat": -22.85,
+    "lon": -66.05,
+    "regimen": "Puna",
+    "unidad": null,
+    "n_focos": 1338,
+    "peso": 0.0519,
+    "r50_km": 87,
+    "r90_km": 154,
+    "anio_top": 2020,
+    "anio_top_pct": 11,
+    "focos_15km": 34,
+    "correccion": {
+     "de": [
+      -23.25,
+      -65.92
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 0.82
+   }
+  ],
+  "La Pampa": [
+   {
+    "zid": "-36.96_-64.91",
+    "lat": -36.96,
+    "lon": -64.91,
+    "regimen": "Espinal",
+    "unidad": "22 Caldenal",
+    "n_focos": 46306,
+    "peso": 0.5662,
+    "r50_km": 95,
+    "r90_km": 156,
+    "anio_top": 2018,
+    "anio_top_pct": 22,
+    "focos_15km": 491,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-38.68_-63.91",
+    "lat": -38.68,
+    "lon": -63.91,
+    "regimen": "Espinal",
+    "unidad": "26 Monte Oriental o de Transicion",
+    "n_focos": 21414,
+    "peso": 0.2618,
+    "r50_km": 36,
+    "r90_km": 67,
+    "anio_top": 2017,
+    "anio_top_pct": 57,
+    "focos_15km": 2693,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-37.69_-66.14",
+    "lat": -37.69,
+    "lon": -66.14,
+    "regimen": "Monte de Llanuras y Mesetas",
+    "unidad": null,
+    "n_focos": 12348,
+    "peso": 0.151,
+    "r50_km": 125,
+    "r90_km": 186,
+    "anio_top": 2017,
+    "anio_top_pct": 19,
+    "focos_15km": 122,
+    "correccion": null,
+    "fijas_pct": 2.2,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-35.87_-63.72",
+    "lat": -35.87,
+    "lon": -63.72,
+    "regimen": "Pampa",
+    "unidad": null,
+    "n_focos": 1717,
+    "peso": 0.021,
+    "r50_km": 56,
+    "r90_km": 101,
+    "anio_top": 2022,
+    "anio_top_pct": 14,
+    "focos_15km": 62,
+    "correccion": null,
+    "fijas_pct": 1.0,
+    "pureza": 1.0
+   }
+  ],
+  "La Rioja": [
+   {
+    "zid": "-29.10_-67.36",
+    "lat": -29.1,
+    "lon": -67.36,
+    "regimen": "Monte de Sierras y Bolsones",
+    "unidad": null,
+    "n_focos": 11153,
+    "peso": 0.5397,
+    "r50_km": 55,
+    "r90_km": 100,
+    "anio_top": 2017,
+    "anio_top_pct": 40,
+    "focos_15km": 465,
+    "correccion": null,
+    "fijas_pct": 2.3,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-30.35_-66.45",
+    "lat": -30.35,
+    "lon": -66.45,
+    "regimen": "Chaco Seco",
+    "unidad": null,
+    "n_focos": 9513,
+    "peso": 0.4603,
+    "r50_km": 96,
+    "r90_km": 125,
+    "anio_top": 2022,
+    "anio_top_pct": 21,
+    "focos_15km": 1386,
+    "correccion": {
+     "de": [
+      -30.04,
+      -66.46
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Mendoza": [
+   {
+    "zid": "-33.25_-68.35",
+    "lat": -33.25,
+    "lon": -68.35,
+    "regimen": "Monte de Llanuras y Mesetas",
+    "unidad": "24 Bolsones Endorreicos",
+    "n_focos": 24473,
+    "peso": 0.6114,
+    "r50_km": 175,
+    "r90_km": 291,
+    "anio_top": 2018,
+    "anio_top_pct": 25,
+    "focos_15km": 1377,
+    "correccion": {
+     "de": [
+      -33.56,
+      -68.13
+     ],
+     "motivo": "fuera"
+    },
+    "fijas_pct": 1.2,
+    "pureza": 0.99
+   },
+   {
+    "zid": "-33.53_-68.71",
+    "lat": -33.53,
+    "lon": -68.71,
+    "regimen": "Monte de Llanuras y Mesetas",
+    "unidad": "25 Monte Austral o Tipico",
+    "n_focos": 8927,
+    "peso": 0.223,
+    "r50_km": 61,
+    "r90_km": 181,
+    "anio_top": 2017,
+    "anio_top_pct": 13,
+    "focos_15km": 84,
+    "correccion": null,
+    "fijas_pct": 5.7,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-35.27_-69.13",
+    "lat": -35.27,
+    "lon": -69.13,
+    "regimen": "Estepa Patagonica",
+    "unidad": null,
+    "n_focos": 4914,
+    "peso": 0.1228,
+    "r50_km": 68,
+    "r90_km": 184,
+    "anio_top": 2017,
+    "anio_top_pct": 22,
+    "focos_15km": 163,
+    "correccion": null,
+    "fijas_pct": 9.3,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-34.85_-69.35",
+    "lat": -34.85,
+    "lon": -69.35,
+    "regimen": "Altos Andes",
+    "unidad": null,
+    "n_focos": 1711,
+    "peso": 0.0427,
+    "r50_km": 83,
+    "r90_km": 197,
+    "anio_top": 2019,
+    "anio_top_pct": 28,
+    "focos_15km": 35,
+    "correccion": {
+     "de": [
+      -34.68,
+      -69.55
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Misiones": [
+   {
+    "zid": "-26.84_-54.48",
+    "lat": -26.84,
+    "lon": -54.48,
+    "regimen": "Selva Paranense",
+    "unidad": null,
+    "n_focos": 63981,
+    "peso": 0.9221,
+    "r50_km": 65,
+    "r90_km": 114,
+    "anio_top": 2020,
+    "anio_top_pct": 11,
+    "focos_15km": 2656,
+    "correccion": null,
+    "fijas_pct": 0.5,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-27.70_-55.73",
+    "lat": -27.7,
+    "lon": -55.73,
+    "regimen": "Campos y Malezales",
+    "unidad": null,
+    "n_focos": 5404,
+    "peso": 0.0779,
+    "r50_km": 26,
+    "r90_km": 43,
+    "anio_top": 2016,
+    "anio_top_pct": 12,
+    "focos_15km": 1471,
+    "correccion": null,
+    "fijas_pct": 0.5,
+    "pureza": 1.0
+   }
+  ],
+  "Neuquén": [
+   {
+    "zid": "-38.71_-70.56",
+    "lat": -38.71,
+    "lon": -70.56,
+    "regimen": "Estepa Patagonica",
+    "unidad": null,
+    "n_focos": 9455,
+    "peso": 0.7668,
+    "r50_km": 94,
+    "r90_km": 189,
+    "anio_top": 2016,
+    "anio_top_pct": 20,
+    "focos_15km": 706,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 0.99
+   },
+   {
+    "zid": "-38.82_-71.02",
+    "lat": -38.82,
+    "lon": -71.02,
+    "regimen": "Bosques Patagonicos",
+    "unidad": null,
+    "n_focos": 2876,
+    "peso": 0.2332,
+    "r50_km": 57,
+    "r90_km": 147,
+    "anio_top": 2021,
+    "anio_top_pct": 24,
+    "focos_15km": 3,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Río Negro": [
+   {
+    "zid": "-39.67_-65.23",
+    "lat": -39.67,
+    "lon": -65.23,
+    "regimen": "Monte de Llanuras y Mesetas",
+    "unidad": null,
+    "n_focos": 39837,
+    "peso": 0.7289,
+    "r50_km": 99,
+    "r90_km": 214,
+    "anio_top": 2016,
+    "anio_top_pct": 23,
+    "focos_15km": 369,
+    "correccion": null,
+    "fijas_pct": 6.5,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-39.63_-63.66",
+    "lat": -39.63,
+    "lon": -63.66,
+    "regimen": "Espinal",
+    "unidad": null,
+    "n_focos": 10798,
+    "peso": 0.1976,
+    "r50_km": 32,
+    "r90_km": 70,
+    "anio_top": 2016,
+    "anio_top_pct": 56,
+    "focos_15km": 645,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-41.55_-71.65",
+    "lat": -41.55,
+    "lon": -71.65,
+    "regimen": "Bosques Patagonicos",
+    "unidad": null,
+    "n_focos": 2348,
+    "peso": 0.043,
+    "r50_km": 14,
+    "r90_km": 51,
+    "anio_top": 2021,
+    "anio_top_pct": 58,
+    "focos_15km": 1227,
+    "correccion": {
+     "de": [
+      -41.6,
+      -71.54
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-41.35_-69.95",
+    "lat": -41.35,
+    "lon": -69.95,
+    "regimen": "Estepa Patagonica",
+    "unidad": null,
+    "n_focos": 1669,
+    "peso": 0.0305,
+    "r50_km": 125,
+    "r90_km": 225,
+    "anio_top": 2021,
+    "anio_top_pct": 32,
+    "focos_15km": 48,
+    "correccion": {
+     "de": [
+      -41.35,
+      -69.78
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Salta": [
+   {
+    "zid": "-24.49_-63.75",
+    "lat": -24.49,
+    "lon": -63.75,
+    "regimen": "Chaco Seco",
+    "unidad": null,
+    "n_focos": 121048,
+    "peso": 0.5981,
+    "r50_km": 106,
+    "r90_km": 216,
+    "anio_top": 2012,
+    "anio_top_pct": 15,
+    "focos_15km": 3031,
+    "correccion": null,
+    "fijas_pct": 0.6,
+    "pureza": 0.98
+   },
+   {
+    "zid": "-23.10_-64.27",
+    "lat": -23.1,
+    "lon": -64.27,
+    "regimen": "Yungas",
+    "unidad": null,
+    "n_focos": 81347,
+    "peso": 0.4019,
+    "r50_km": 42,
+    "r90_km": 123,
+    "anio_top": 2022,
+    "anio_top_pct": 38,
+    "focos_15km": 7716,
+    "correccion": null,
+    "fijas_pct": 1.5,
+    "pureza": 0.98
+   }
+  ],
+  "San Juan": [
+   {
+    "zid": "-31.01_-68.31",
+    "lat": -31.01,
+    "lon": -68.31,
+    "regimen": "Monte de Sierras y Bolsones",
+    "unidad": null,
+    "n_focos": 8374,
+    "peso": 0.4791,
+    "r50_km": 81,
+    "r90_km": 120,
+    "anio_top": 2017,
+    "anio_top_pct": 16,
+    "focos_15km": 5,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 0.96
+   },
+   {
+    "zid": "-31.79_-68.40",
+    "lat": -31.79,
+    "lon": -68.4,
+    "regimen": "Monte de Llanuras y Mesetas",
+    "unidad": null,
+    "n_focos": 7716,
+    "peso": 0.4414,
+    "r50_km": 20,
+    "r90_km": 41,
+    "anio_top": 2020,
+    "anio_top_pct": 9,
+    "focos_15km": 2314,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 0.98
+   },
+   {
+    "zid": "-30.09_-68.83",
+    "lat": -30.09,
+    "lon": -68.83,
+    "regimen": "Puna",
+    "unidad": null,
+    "n_focos": 1389,
+    "peso": 0.0795,
+    "r50_km": 13,
+    "r90_km": 78,
+    "anio_top": 2018,
+    "anio_top_pct": 23,
+    "focos_15km": 877,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 0.87
+   }
+  ],
+  "San Luis": [
+   {
+    "zid": "-34.66_-65.73",
+    "lat": -34.66,
+    "lon": -65.73,
+    "regimen": "Espinal",
+    "unidad": null,
+    "n_focos": 25744,
+    "peso": 0.5066,
+    "r50_km": 102,
+    "r90_km": 165,
+    "anio_top": 2022,
+    "anio_top_pct": 14,
+    "focos_15km": 224,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-32.79_-65.76",
+    "lat": -32.79,
+    "lon": -65.76,
+    "regimen": "Chaco Seco",
+    "unidad": "7 Chaco Serrano",
+    "n_focos": 17016,
+    "peso": 0.3349,
+    "r50_km": 45,
+    "r90_km": 72,
+    "anio_top": 2020,
+    "anio_top_pct": 28,
+    "focos_15km": 1166,
+    "correccion": null,
+    "fijas_pct": 0.8,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-32.25_-66.05",
+    "lat": -32.25,
+    "lon": -66.05,
+    "regimen": "Chaco Seco",
+    "unidad": "9 Chaco Arido",
+    "n_focos": 6057,
+    "peso": 0.1192,
+    "r50_km": 60,
+    "r90_km": 121,
+    "anio_top": 2017,
+    "anio_top_pct": 26,
+    "focos_15km": 696,
+    "correccion": {
+     "de": [
+      -32.49,
+      -65.87
+     ],
+     "motivo": "fuera"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-34.25_-66.55",
+    "lat": -34.25,
+    "lon": -66.55,
+    "regimen": "Monte de Llanuras y Mesetas",
+    "unidad": null,
+    "n_focos": 1997,
+    "peso": 0.0393,
+    "r50_km": 24,
+    "r90_km": 161,
+    "anio_top": 2018,
+    "anio_top_pct": 40,
+    "focos_15km": 536,
+    "correccion": {
+     "de": [
+      -34.52,
+      -66.5
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Santa Cruz": [
+   {
+    "zid": "-48.25_-69.55",
+    "lat": -48.25,
+    "lon": -69.55,
+    "regimen": "Estepa Patagonica",
+    "unidad": "42 Distrito Central-Erial",
+    "n_focos": 1669,
+    "peso": 0.4485,
+    "r50_km": 92,
+    "r90_km": 194,
+    "anio_top": 2018,
+    "anio_top_pct": 12,
+    "focos_15km": 157,
+    "correccion": {
+     "de": [
+      -48.28,
+      -69.92
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-50.15_-72.35",
+    "lat": -50.15,
+    "lon": -72.35,
+    "regimen": "Estepa Patagonica",
+    "unidad": "38 Distrito Subandino-Estepa de coiron blanco",
+    "n_focos": 733,
+    "peso": 0.197,
+    "r50_km": 83,
+    "r90_km": 381,
+    "anio_top": 2022,
+    "anio_top_pct": 21,
+    "focos_15km": 25,
+    "correccion": {
+     "de": [
+      -49.83,
+      -71.77
+     ],
+     "motivo": "fuera"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-46.55_-68.15",
+    "lat": -46.55,
+    "lon": -68.15,
+    "regimen": "Estepa Patagonica",
+    "unidad": "43 Distrito del Golfo San Jorge",
+    "n_focos": 593,
+    "peso": 0.1594,
+    "r50_km": 32,
+    "r90_km": 48,
+    "anio_top": 2022,
+    "anio_top_pct": 26,
+    "focos_15km": 246,
+    "correccion": {
+     "de": [
+      -46.55,
+      -67.86
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 51.2,
+    "pureza": 1.0,
+    "estacionalidad": {
+     "limpios": 63,
+     "fijos": 50
+    }
+   },
+   {
+    "zid": "-48.75_-71.15",
+    "lat": -48.75,
+    "lon": -71.15,
+    "regimen": "Estepa Patagonica",
+    "unidad": "44 Distrito Central",
+    "n_focos": 444,
+    "peso": 0.1193,
+    "r50_km": 69,
+    "r90_km": 238,
+    "anio_top": 2013,
+    "anio_top_pct": 18,
+    "focos_15km": 54,
+    "correccion": {
+     "de": [
+      -48.46,
+      -71.17
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-47.55_-72.05",
+    "lat": -47.55,
+    "lon": -72.05,
+    "regimen": "Bosques Patagonicos",
+    "unidad": null,
+    "n_focos": 282,
+    "peso": 0.0758,
+    "r50_km": 23,
+    "r90_km": 205,
+    "anio_top": 2016,
+    "anio_top_pct": 39,
+    "focos_15km": 137,
+    "correccion": {
+     "de": [
+      -47.89,
+      -72.19
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Santa Fe": [
+   {
+    "zid": "-28.79_-60.89",
+    "lat": -28.79,
+    "lon": -60.89,
+    "regimen": "Chaco Humedo",
+    "unidad": "16 Bajos Submeridionales-Espartillares",
+    "n_focos": 136929,
+    "peso": 0.4078,
+    "r50_km": 52,
+    "r90_km": 86,
+    "anio_top": 2020,
+    "anio_top_pct": 20,
+    "focos_15km": 6969,
+    "correccion": null,
+    "fijas_pct": 0.1,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-30.00_-59.76",
+    "lat": -30.0,
+    "lon": -59.76,
+    "regimen": "Delta e Islas del Parana",
+    "unidad": null,
+    "n_focos": 82556,
+    "peso": 0.2459,
+    "r50_km": 117,
+    "r90_km": 214,
+    "anio_top": 2020,
+    "anio_top_pct": 37,
+    "focos_15km": 4716,
+    "correccion": null,
+    "fijas_pct": 0.2,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-28.74_-59.89",
+    "lat": -28.74,
+    "lon": -59.89,
+    "regimen": "Chaco Humedo",
+    "unidad": "15 Chaco Humedo con Bosques y Canadas",
+    "n_focos": 38866,
+    "peso": 0.1157,
+    "r50_km": 69,
+    "r90_km": 133,
+    "anio_top": 2020,
+    "anio_top_pct": 17,
+    "focos_15km": 2414,
+    "correccion": null,
+    "fijas_pct": 1.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-30.27_-61.42",
+    "lat": -30.27,
+    "lon": -61.42,
+    "regimen": "Espinal",
+    "unidad": "21 Algarrobal",
+    "n_focos": 34504,
+    "peso": 0.1028,
+    "r50_km": 70,
+    "r90_km": 95,
+    "anio_top": 2020,
+    "anio_top_pct": 15,
+    "focos_15km": 1060,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-30.65_-60.78",
+    "lat": -30.65,
+    "lon": -60.78,
+    "regimen": "Espinal",
+    "unidad": "20 Espinillar",
+    "n_focos": 21923,
+    "peso": 0.0653,
+    "r50_km": 61,
+    "r90_km": 103,
+    "anio_top": 2020,
+    "anio_top_pct": 15,
+    "focos_15km": 497,
+    "correccion": null,
+    "fijas_pct": 0.4,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-29.24_-61.71",
+    "lat": -29.24,
+    "lon": -61.71,
+    "regimen": "Chaco Seco",
+    "unidad": null,
+    "n_focos": 11338,
+    "peso": 0.0338,
+    "r50_km": 30,
+    "r90_km": 78,
+    "anio_top": 2020,
+    "anio_top_pct": 18,
+    "focos_15km": 1458,
+    "correccion": null,
+    "fijas_pct": 0.2,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-32.84_-61.45",
+    "lat": -32.84,
+    "lon": -61.45,
+    "regimen": "Pampa",
+    "unidad": null,
+    "n_focos": 9670,
+    "peso": 0.0288,
+    "r50_km": 80,
+    "r90_km": 152,
+    "anio_top": 2020,
+    "anio_top_pct": 17,
+    "focos_15km": 130,
+    "correccion": null,
+    "fijas_pct": 2.8,
+    "pureza": 1.0
+   }
+  ],
+  "Santiago del Estero": [
+   {
+    "zid": "-27.47_-63.38",
+    "lat": -27.47,
+    "lon": -63.38,
+    "regimen": "Chaco Seco",
+    "unidad": "12 Chaco Semiarido",
+    "n_focos": 124296,
+    "peso": 0.5527,
+    "r50_km": 102,
+    "r90_km": 171,
+    "anio_top": 2020,
+    "anio_top_pct": 12,
+    "focos_15km": 599,
+    "correccion": null,
+    "fijas_pct": 0.1,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-27.48_-62.20",
+    "lat": -27.48,
+    "lon": -62.2,
+    "regimen": "Chaco Seco",
+    "unidad": "13 Chaco Subhumedo",
+    "n_focos": 68320,
+    "peso": 0.3038,
+    "r50_km": 117,
+    "r90_km": 199,
+    "anio_top": 2020,
+    "anio_top_pct": 14,
+    "focos_15km": 895,
+    "correccion": null,
+    "fijas_pct": 0.6,
+    "pureza": 0.94
+   },
+   {
+    "zid": "-29.70_-62.55",
+    "lat": -29.7,
+    "lon": -62.55,
+    "regimen": "Chaco Seco",
+    "unidad": "11 Banados de Mar Chiquita-Espartillares y zampales",
+    "n_focos": 32280,
+    "peso": 0.1435,
+    "r50_km": 26,
+    "r90_km": 48,
+    "anio_top": 2020,
+    "anio_top_pct": 14,
+    "focos_15km": 5550,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   }
+  ],
+  "Tierra del Fuego, Antártida e Islas del Atlántico Sur": [
+   {
+    "zid": "-54.44_-67.72",
+    "lat": -54.44,
+    "lon": -67.72,
+    "regimen": "Bosques Patagonicos",
+    "unidad": null,
+    "n_focos": 1584,
+    "peso": 0.5257,
+    "r50_km": 5,
+    "r90_km": 9,
+    "anio_top": 2022,
+    "anio_top_pct": 86,
+    "focos_15km": 1484,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-51.82_-58.94",
+    "lat": -51.82,
+    "lon": -58.94,
+    "regimen": "Islas del Atlantico Sur",
+    "unidad": "isla",
+    "n_focos": 1108,
+    "peso": 0.3677,
+    "r50_km": 36,
+    "r90_km": 45,
+    "anio_top": 2012,
+    "anio_top_pct": 50,
+    "focos_15km": 101,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-51.65_-59.95",
+    "lat": -51.65,
+    "lon": -59.95,
+    "regimen": "Islas del Atlantico Sur",
+    "unidad": "isla",
+    "n_focos": 230,
+    "peso": 0.0763,
+    "r50_km": 27,
+    "r90_km": 45,
+    "anio_top": 2013,
+    "anio_top_pct": 32,
+    "focos_15km": 70,
+    "correccion": {
+     "de": [
+      -51.54,
+      -60.01
+     ],
+     "motivo": "celda vacía"
+    },
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-53.68_-67.90",
+    "lat": -53.68,
+    "lon": -67.9,
+    "regimen": "Estepa Patagonica",
+    "unidad": null,
+    "n_focos": 91,
+    "peso": 0.0302,
+    "r50_km": 19,
+    "r90_km": 29,
+    "anio_top": 2016,
+    "anio_top_pct": 24,
+    "focos_15km": 38,
+    "correccion": null,
+    "fijas_pct": 84.2,
+    "pureza": 1.0,
+    "estacionalidad": {
+     "limpios": 63,
+     "fijos": 48
+    }
+   }
+  ],
+  "Tucumán": [
+   {
+    "zid": "-27.15_-65.32",
+    "lat": -27.15,
+    "lon": -65.32,
+    "regimen": "Chaco Seco",
+    "unidad": "2 Selva de Transicion",
+    "n_focos": 22177,
+    "peso": 0.3884,
+    "r50_km": 29,
+    "r90_km": 66,
+    "anio_top": 2020,
+    "anio_top_pct": 14,
+    "focos_15km": 6477,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-27.33_-65.23",
+    "lat": -27.33,
+    "lon": -65.23,
+    "regimen": "Chaco Seco",
+    "unidad": "12 Chaco Semiarido",
+    "n_focos": 19528,
+    "peso": 0.342,
+    "r50_km": 29,
+    "r90_km": 100,
+    "anio_top": 2013,
+    "anio_top_pct": 15,
+    "focos_15km": 3713,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 1.0
+   },
+   {
+    "zid": "-26.81_-65.25",
+    "lat": -26.81,
+    "lon": -65.25,
+    "regimen": "Yungas",
+    "unidad": null,
+    "n_focos": 15396,
+    "peso": 0.2696,
+    "r50_km": 33,
+    "r90_km": 69,
+    "anio_top": 2013,
+    "anio_top_pct": 16,
+    "focos_15km": 2696,
+    "correccion": null,
+    "fijas_pct": 0.0,
+    "pureza": 0.98
+   }
+  ],
+  "Ciudad Autónoma de Buenos Aires": [
+   {
+    "zid": "-34.63_-58.38",
+    "lat": -34.63,
+    "lon": -58.38,
+    "regimen": "Pampa",
+    "unidad": null,
+    "n_focos": 34,
+    "peso": 1,
+    "nota": "el indicador no aplica (sin cambios)"
+   }
+  ]
+ },
+ "info": {
+  "Buenos Aires": {
+   "n_total": 80773,
+   "n_limpio": 77981,
+   "fijas_pct": 3.5,
+   "islas": 0,
+   "regimenes": {
+    "Pampa": 0.604,
+    "Delta e Islas del Parana": 0.209,
+    "Espinal": 0.186,
+    "Monte de Llanuras y Mesetas": 0.0
+   },
+   "fijas_por_regla": {
+    "a": 2734,
+    "b": 1776,
+    "c": 0
+   }
+  },
+  "Catamarca": {
+   "n_total": 16570,
+   "n_limpio": 16457,
+   "fijas_pct": 0.7,
+   "islas": 0,
+   "regimenes": {
+    "Chaco Seco": 0.374,
+    "Yungas": 0.302,
+    "Monte de Sierras y Bolsones": 0.263,
+    "Altos Andes": 0.032,
+    "Puna": 0.03
+   },
+   "fijas_por_regla": {
+    "a": 113,
+    "b": 113,
+    "c": 0
+   }
+  },
+  "Chaco": {
+   "n_total": 233409,
+   "n_limpio": 231624,
+   "fijas_pct": 0.8,
+   "islas": 0,
+   "regimenes": {
+    "Chaco Seco": 0.568,
+    "Chaco Humedo": 0.379,
+    "Delta e Islas del Parana": 0.053
+   },
+   "fijas_por_regla": {
+    "a": 1557,
+    "b": 877,
+    "c": 0
+   }
+  },
+  "Chubut": {
+   "n_total": 14511,
+   "n_limpio": 14109,
+   "fijas_pct": 2.8,
+   "islas": 0,
+   "regimenes": {
+    "Bosques Patagonicos": 0.672,
+    "Estepa Patagonica": 0.177,
+    "Monte de Llanuras y Mesetas": 0.151
+   },
+   "fijas_por_regla": {
+    "a": 111,
+    "b": 78,
+    "c": 398
+   }
+  },
+  "Córdoba": {
+   "n_total": 64224,
+   "n_limpio": 63991,
+   "fijas_pct": 0.4,
+   "islas": 0,
+   "regimenes": {
+    "Chaco Seco": 0.743,
+    "Espinal": 0.176,
+    "Pampa": 0.081
+   },
+   "fijas_por_regla": {
+    "a": 228,
+    "b": 144,
+    "c": 0
+   }
+  },
+  "Corrientes": {
+   "n_total": 260657,
+   "n_limpio": 258551,
+   "fijas_pct": 0.8,
+   "islas": 0,
+   "regimenes": {
+    "Esteros del Ibera": 0.414,
+    "Campos y Malezales": 0.351,
+    "Espinal": 0.122,
+    "Delta e Islas del Parana": 0.084,
+    "Chaco Humedo": 0.029
+   },
+   "fijas_por_regla": {
+    "a": 1991,
+    "b": 1837,
+    "c": 0
+   }
+  },
+  "Entre Ríos": {
+   "n_total": 117132,
+   "n_limpio": 115543,
+   "fijas_pct": 1.4,
+   "islas": 0,
+   "regimenes": {
+    "Delta e Islas del Parana": 0.627,
+    "Espinal": 0.277,
+    "Pampa": 0.089,
+    "Esteros del Ibera": 0.007
+   },
+   "fijas_por_regla": {
+    "a": 1383,
+    "b": 1296,
+    "c": 0
+   }
+  },
+  "Formosa": {
+   "n_total": 372377,
+   "n_limpio": 370418,
+   "fijas_pct": 0.5,
+   "islas": 0,
+   "regimenes": {
+    "Chaco Humedo": 0.563,
+    "Chaco Seco": 0.402,
+    "Delta e Islas del Parana": 0.035
+   },
+   "fijas_por_regla": {
+    "a": 955,
+    "b": 1278,
+    "c": 628
+   }
+  },
+  "Jujuy": {
+   "n_total": 25819,
+   "n_limpio": 25769,
+   "fijas_pct": 0.2,
+   "islas": 0,
+   "regimenes": {
+    "Chaco Seco": 0.538,
+    "Yungas": 0.402,
+    "Puna": 0.043,
+    "Altos Andes": 0.009,
+    "Monte de Sierras y Bolsones": 0.008
+   },
+   "fijas_por_regla": {
+    "a": 50,
+    "b": 0,
+    "c": 0
+   }
+  },
+  "La Pampa": {
+   "n_total": 82256,
+   "n_limpio": 81785,
+   "fijas_pct": 0.6,
+   "islas": 0,
+   "regimenes": {
+    "Espinal": 0.828,
+    "Monte de Llanuras y Mesetas": 0.151,
+    "Pampa": 0.021
+   },
+   "fijas_por_regla": {
+    "a": 323,
+    "b": 47,
+    "c": 390
+   }
+  },
+  "La Rioja": {
+   "n_total": 21000,
+   "n_limpio": 20666,
+   "fijas_pct": 1.6,
+   "islas": 0,
+   "regimenes": {
+    "Monte de Sierras y Bolsones": 0.537,
+    "Chaco Seco": 0.46,
+    "Puna": 0.002,
+    "Altos Andes": 0.001
+   },
+   "fijas_por_regla": {
+    "a": 292,
+    "b": 294,
+    "c": 0
+   }
+  },
+  "Mendoza": {
+   "n_total": 42520,
+   "n_limpio": 40025,
+   "fijas_pct": 5.9,
+   "islas": 0,
+   "regimenes": {
+    "Monte de Llanuras y Mesetas": 0.827,
+    "Estepa Patagonica": 0.123,
+    "Altos Andes": 0.043,
+    "Monte de Sierras y Bolsones": 0.007
+   },
+   "fijas_por_regla": {
+    "a": 2272,
+    "b": 1644,
+    "c": 2159
+   }
+  },
+  "Misiones": {
+   "n_total": 69733,
+   "n_limpio": 69385,
+   "fijas_pct": 0.5,
+   "islas": 0,
+   "regimenes": {
+    "Selva Paranense": 0.922,
+    "Campos y Malezales": 0.078
+   },
+   "fijas_por_regla": {
+    "a": 293,
+    "b": 318,
+    "c": 0
+   }
+  },
+  "Neuquén": {
+   "n_total": 37119,
+   "n_limpio": 12331,
+   "fijas_pct": 66.8,
+   "islas": 0,
+   "regimenes": {
+    "Estepa Patagonica": 0.522,
+    "Monte de Llanuras y Mesetas": 0.237,
+    "Bosques Patagonicos": 0.233,
+    "Altos Andes": 0.007
+   },
+   "fijas_por_regla": {
+    "a": 23293,
+    "b": 16583,
+    "c": 21413
+   }
+  },
+  "Río Negro": {
+   "n_total": 56368,
+   "n_limpio": 54652,
+   "fijas_pct": 3.0,
+   "islas": 0,
+   "regimenes": {
+    "Monte de Llanuras y Mesetas": 0.729,
+    "Espinal": 0.198,
+    "Bosques Patagonicos": 0.043,
+    "Estepa Patagonica": 0.031
+   },
+   "fijas_por_regla": {
+    "a": 917,
+    "b": 69,
+    "c": 1519
+   }
+  },
+  "Salta": {
+   "n_total": 204565,
+   "n_limpio": 202395,
+   "fijas_pct": 1.1,
+   "islas": 0,
+   "regimenes": {
+    "Chaco Seco": 0.587,
+    "Yungas": 0.395,
+    "Puna": 0.008,
+    "Monte de Sierras y Bolsones": 0.008,
+    "Altos Andes": 0.001
+   },
+   "fijas_por_regla": {
+    "a": 196,
+    "b": 283,
+    "c": 1887
+   }
+  },
+  "San Juan": {
+   "n_total": 17479,
+   "n_limpio": 17479,
+   "fijas_pct": 0.0,
+   "islas": 0,
+   "regimenes": {
+    "Monte de Sierras y Bolsones": 0.462,
+    "Monte de Llanuras y Mesetas": 0.433,
+    "Puna": 0.069,
+    "Altos Andes": 0.018,
+    "Chaco Seco": 0.018
+   },
+   "fijas_por_regla": {
+    "a": 0,
+    "b": 0,
+    "c": 0
+   }
+  },
+  "San Luis": {
+   "n_total": 51000,
+   "n_limpio": 50814,
+   "fijas_pct": 0.4,
+   "islas": 0,
+   "regimenes": {
+    "Espinal": 0.507,
+    "Chaco Seco": 0.454,
+    "Monte de Llanuras y Mesetas": 0.039
+   },
+   "fijas_por_regla": {
+    "a": 184,
+    "b": 157,
+    "c": 0
+   }
+  },
+  "Santa Cruz": {
+   "n_total": 4949,
+   "n_limpio": 3721,
+   "fijas_pct": 24.8,
+   "islas": 0,
+   "regimenes": {
+    "Estepa Patagonica": 0.924,
+    "Bosques Patagonicos": 0.076
+   },
+   "fijas_por_regla": {
+    "a": 747,
+    "b": 264,
+    "c": 1226
+   }
+  },
+  "Santa Fe": {
+   "n_total": 337322,
+   "n_limpio": 335786,
+   "fijas_pct": 0.5,
+   "islas": 0,
+   "regimenes": {
+    "Chaco Humedo": 0.524,
+    "Delta e Islas del Parana": 0.246,
+    "Espinal": 0.168,
+    "Chaco Seco": 0.034,
+    "Pampa": 0.029
+   },
+   "fijas_por_regla": {
+    "a": 1275,
+    "b": 1341,
+    "c": 0
+   }
+  },
+  "Santiago del Estero": {
+   "n_total": 225482,
+   "n_limpio": 224896,
+   "fijas_pct": 0.3,
+   "islas": 0,
+   "regimenes": {
+    "Chaco Seco": 0.98,
+    "Chaco Humedo": 0.02,
+    "Espinal": 0.001
+   },
+   "fijas_por_regla": {
+    "a": 480,
+    "b": 394,
+    "c": 0
+   }
+  },
+  "Tierra del Fuego, Antártida e Islas del Atlántico Sur": {
+   "n_total": 3510,
+   "n_limpio": 3013,
+   "fijas_pct": 14.2,
+   "islas": 2,
+   "regimenes": {
+    "Bosques Patagonicos": 0.526,
+    "Islas del Atlantico Sur": 0.444,
+    "Estepa Patagonica": 0.03
+   },
+   "fijas_por_regla": {
+    "a": 338,
+    "b": 194,
+    "c": 442
+   }
+  },
+  "Tucumán": {
+   "n_total": 57101,
+   "n_limpio": 57101,
+   "fijas_pct": 0.0,
+   "islas": 0,
+   "regimenes": {
+    "Chaco Seco": 0.73,
+    "Yungas": 0.264,
+    "Monte de Sierras y Bolsones": 0.004,
+    "Altos Andes": 0.002
+   },
+   "fijas_por_regla": {
+    "a": 0,
+    "b": 0,
+    "c": 0
+   }
+  }
+ },
+ "caidas_r43": [
+  {
+   "prov": "Neuquén",
+   "zid": "-38.45_-69.05",
+   "regimen": "Monte de Llanuras y Mesetas",
+   "unidad": null,
+   "peso": 0.2382,
+   "fijas_pct": 89.0,
+   "estacionalidad": {
+    "limpios": 43,
+    "fijos": 41
+   }
+  },
+  {
+   "prov": "Santa Cruz",
+   "zid": "-50.67_-70.71",
+   "regimen": "Estepa Patagonica",
+   "unidad": "45 Estepa arbustiva de mata negra",
+   "peso": 0.1467,
+   "fijas_pct": 38.6,
+   "estacionalidad": {
+    "limpios": 46,
+    "fijos": 42
+   }
+  }
+ ]
+}

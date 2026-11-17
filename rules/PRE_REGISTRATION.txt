@@ -1,0 +1,15 @@
+Development repository (private): commits that back the 'registered before measuring' claim.
+Format: hash · author date · subject
+
+b687797 · 2026-11-16 21:24:09 -0300 · Zonas v4: reglas pre-registradas (BORRADOR, pendiente firma) — ecorregiones MAyDS 2021 + unidades Oyarzabal 2018, fuentes fijas con padrón de pozos SE, escalación neutral a k, evaluación 2×2
+6e19d5c · 2026-11-17 08:28:36 -0300 · Zonas v4: reglas FIRMADAS por German (17/11/2026), congeladas
+d98a63b · 2026-11-17 08:47:09 -0300 · Zonas v4.1 (90 zonas): R3 unidad→ecorregión dominante, partición ≥5 %, piso rescate 50, islas dentro del régimen, R4.3 control de fijas residuales por estacionalidad. Antes de medir desempeño
+e8ffdc6 · 2026-11-17 08:58:19 -0300 · Método v4 integrado (borrador): zonas + Semáforo FWI + GFI sobre la misma geografía; R5b subregiones FWI por grupos de ecorregiones
+846bacb · 2026-11-17 09:12:48 -0300 · R5b subregiones FWI por ecorregión: firmada por German
+0a9c5b8 · 2026-11-17 09:14:46 -0300 · Paso 4: evaluación 2×2 del término de sequía GFI (A prod, B zonas v4.1, C/D regla R6). D NO cumple el criterio pre-registrado (ΔPeirce LOYO −0,124 [−0,178, −0,073]); B ≈ A (−0,006 [−0,025, +0,015])
+b2454a7 · 2026-11-17 09:15:51 -0300 · Evaluación GFI: fix empates de R6 (saturación del máximo en 1,0) → todas las provincias en 15,4 %
+0f2d95d · 2026-11-17 10:03:16 -0300 · Paso 4 FWI: evaluación fuera de muestra 2022–2026 Semáforo v3 vs v4.1 (+ diagnóstico 2×2 zonas×subregiones). v4.1 NO pasa: mejora NEA (+0,054) y NOA, empeora Centro (−0,030) y Patagonia (−0,031); país ≈
+55c10c5 · 2026-11-17 10:22:43 -0300 · R5c registrada antes de correr: Semáforo FWI por ecorregión (E1 único, E2 umbral ecorregional), provincia por promedio ponderado por fuego
+0a73a07 · 2026-11-17 10:25:49 -0300 · R5c Semáforo FWI por ecorregión: E1 y E2 pasan con margen (país PSS≥Alto 0,314→0,510/0,488); diagnóstico: la mayor parte viene de cambiar peor zona por promedio ponderado por fuego (+0,173); la ecorregión agrega +0,023 país (NEA +0,063 sig)
+ff6e9b6 · 2026-11-17 15:51:29 -0300 · Semáforo FWI ecorregional: calibración de producción (16 ecorregiones, 89 puntos, mapeo vivo→ERA5 por punto) + módulo worker fwi_ecorregional.js; paridad JS↔Python 0 niveles distintos en 320 días (5.112 ecorregión-días, 7.360 provincia-días). Sin deploy
+7501670 · 2026-11-17 17:15:36 -0300 · Semáforo FWI por ecorregión conectado de punta a punta (sin deploy): fwiDiario sobre los 89 puntos, payload v4 (ecorregiones[] + provincia como resumen), mapa /argentina con capa de ecorregiones y par Ecorregiones/Provincias, /app, método ES/EN, tests v4 (payload, fwiDiario real, front 20/20, capas, fullscreen); siembra DC climatológica medida (1,1 % de ecorregión-días cambia de clase); METODO_v4 y REGLAS con resultados (R5c adoptada, R6 descartada)

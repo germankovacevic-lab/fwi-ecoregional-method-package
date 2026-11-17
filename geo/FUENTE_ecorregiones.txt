@@ -1,0 +1,27 @@
+ecorregiones_MAyDS_2021_original.geojson
+Capa oficial "Ecoregiones Argentina", tal como la publica el servicio de mapas del Ministerio de Ambiente y Desarrollo
+Sostenible de la Nación. Sin modificar (18 ecorregiones, incluye Mar Argentino y Antártida).
+
+  Servicio:   https://geo.ambiente.gob.ar/geoserver/areas_protegidas/wfs   (WFS)
+  Capa:       areas_protegidas:ecoregiones2021
+  Descarga:   16/11/2026
+  Licencia declarada por el servicio (AccessConstraints): "Creative Conmons. Esta licencia es una licencia libre" · Fees: NONE
+
+Descripción publicada por el servicio (textual):
+  "Se desarrolló un mapa preliminar de las regiones naturales del país con su descripción correspondiente con el objeto
+  de llegar a elaborar conjuntamente, la capa de Ecoregiones desarrollada a partir de trabajar en 2 talleres
+  interdisciplinarios coordinados por Rodolfo Burkart y Daniel Aldo Gómez ambos por la Administración de Parques
+  Nacionales, y Néstor Bárbaro por la entonces Secretaria de Ambiente y Desarrollo Sustentable, en el marco del Programa
+  de Desarrollo Institucional Ambiental (PRODIA) durante los años 1996—1999. Se utilizó como límite internacional los
+  generados por el Instituto Nacional de Estadística y Censos publicado en el año 1995 en el Atlas estadístico de la
+  República Argentina. Actualización: 2021."
+
+Cita: Burkart, R., Bárbaro, N. O., Sánchez, R. O. y Gómez, D. A. (1999). Eco-regiones de la Argentina. Administración de
+Parques Nacionales. Actualización 2021: Ministerio de Ambiente y Desarrollo Sostenible.
+
+ecorregiones_simplificado.geojson
+Derivado de la capa anterior para dibujar en el mapa web: 16 ecorregiones (sin Mar Argentino ni Antártida), geometría
+simplificada al 10 % (mapshaper), islas menores de 30 km² quitadas. No usar para análisis: el cálculo usa la capa original.
+
+EN: the first file is the official ecoregion layer exactly as served by Argentina's Ministry of Environment (licence
+declared by the service: Creative Commons, free licence). The second is a display-only simplification derived from it.

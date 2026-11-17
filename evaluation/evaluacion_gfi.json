@@ -1,0 +1,271 @@
+{
+ "A": {
+  "in_sample": {
+   "tasa": 0.35507246376811596,
+   "precision": 0.6240188383045526,
+   "pod": 0.48594132029339854,
+   "pofd": 0.24538934426229508,
+   "peirce": 0.24055197603110345,
+   "base": 0.4559643255295429
+  },
+  "loyo": {
+   "tasa": 0.47435897435897434,
+   "precision": 0.5934195064629847,
+   "pod": 0.617359413202934,
+   "pofd": 0.35450819672131145,
+   "peirce": 0.2628512164816225,
+   "base": 0.4559643255295429
+  },
+  "tasa_por_provincia": {
+   "Buenos Aires": 0.487,
+   "Catamarca": 0.397,
+   "Chaco": 0.314,
+   "Chubut": 0.442,
+   "Córdoba": 0.301,
+   "Corrientes": 0.327,
+   "Entre Ríos": 0.295,
+   "Formosa": 0.314,
+   "Jujuy": 0.423,
+   "La Pampa": 0.417,
+   "La Rioja": 0.333,
+   "Mendoza": 0.333,
+   "Misiones": 0.301,
+   "Neuquén": 0.378,
+   "Río Negro": 0.455,
+   "Salta": 0.288,
+   "San Juan": 0.308,
+   "San Luis": 0.359,
+   "Santa Cruz": 0.436,
+   "Santa Fe": 0.282,
+   "Santiago del Estero": 0.359,
+   "Tierra del Fuego, Antártida e Islas del Atlántico Sur": 0.327,
+   "Tucumán": 0.288
+  },
+  "nacional_meses": 18,
+  "delta_ER_ago2020": true,
+  "peirce_loyo_ic95": [
+   0.18931253110473614,
+   0.337952452045492
+  ]
+ },
+ "B": {
+  "in_sample": {
+   "tasa": 0.3762541806020067,
+   "precision": 0.617037037037037,
+   "pod": 0.5091687041564792,
+   "pofd": 0.26485655737704916,
+   "peirce": 0.24431214677943003,
+   "base": 0.4559643255295429
+  },
+  "loyo": {
+   "tasa": 0.4331103678929766,
+   "precision": 0.6029601029601029,
+   "pod": 0.5727383863080685,
+   "pofd": 0.3160860655737705,
+   "peirce": 0.256652320734298,
+   "base": 0.4559643255295429
+  },
+  "tasa_por_provincia": {
+   "Buenos Aires": 0.564,
+   "Catamarca": 0.551,
+   "Chaco": 0.308,
+   "Chubut": 0.442,
+   "Córdoba": 0.372,
+   "Corrientes": 0.391,
+   "Entre Ríos": 0.276,
+   "Formosa": 0.365,
+   "Jujuy": 0.404,
+   "La Pampa": 0.429,
+   "La Rioja": 0.346,
+   "Mendoza": 0.385,
+   "Misiones": 0.269,
+   "Neuquén": 0.288,
+   "Río Negro": 0.429,
+   "Salta": 0.237,
+   "San Juan": 0.34,
+   "San Luis": 0.346,
+   "Santa Cruz": 0.564,
+   "Santa Fe": 0.391,
+   "Santiago del Estero": 0.301,
+   "Tierra del Fuego, Antártida e Islas del Atlántico Sur": 0.385,
+   "Tucumán": 0.269
+  },
+  "nacional_meses": 19,
+  "delta_ER_ago2020": false,
+  "dif_peirce_vs_A_loyo": {
+   "media": -0.006260579283030891,
+   "ic95": [
+    -0.02453661935070362,
+    0.015043522564199075
+   ]
+  },
+  "peirce_loyo_ic95": [
+   0.1795731342876515,
+   0.3283684999440264
+  ]
+ },
+ "C": {
+  "in_sample": {
+   "tasa": 0.15384615384615385,
+   "precision": 0.6648550724637681,
+   "pod": 0.22432762836185818,
+   "pofd": 0.09477459016393443,
+   "peirce": 0.12955303819792374,
+   "base": 0.4559643255295429
+  },
+  "loyo": {
+   "tasa": 0.16638795986622074,
+   "precision": 0.6566164154103853,
+   "pod": 0.2396088019559902,
+   "pofd": 0.10502049180327869,
+   "peirce": 0.13458831015271153,
+   "base": 0.4559643255295429
+  },
+  "tasa_por_provincia": {
+   "Buenos Aires": 0.154,
+   "Catamarca": 0.154,
+   "Chaco": 0.154,
+   "Chubut": 0.154,
+   "Córdoba": 0.154,
+   "Corrientes": 0.154,
+   "Entre Ríos": 0.154,
+   "Formosa": 0.154,
+   "Jujuy": 0.154,
+   "La Pampa": 0.154,
+   "La Rioja": 0.154,
+   "Mendoza": 0.154,
+   "Misiones": 0.154,
+   "Neuquén": 0.154,
+   "Río Negro": 0.154,
+   "Salta": 0.154,
+   "San Juan": 0.154,
+   "San Luis": 0.154,
+   "Santa Cruz": 0.154,
+   "Santa Fe": 0.154,
+   "Santiago del Estero": 0.154,
+   "Tierra del Fuego, Antártida e Islas del Atlántico Sur": 0.154,
+   "Tucumán": 0.154
+  },
+  "nacional_meses": 1,
+  "delta_ER_ago2020": false,
+  "dif_peirce_vs_A_loyo": {
+   "media": -0.12668564510049704,
+   "ic95": [
+    -0.18149360786328797,
+    -0.07324288921441624
+   ]
+  },
+  "peirce_loyo_ic95": [
+   0.08181598107827454,
+   0.18396234841534997
+  ]
+ },
+ "D": {
+  "in_sample": {
+   "tasa": 0.15384615384615385,
+   "precision": 0.6648550724637681,
+   "pod": 0.22432762836185818,
+   "pofd": 0.09477459016393443,
+   "peirce": 0.12955303819792374,
+   "base": 0.4559643255295429
+  },
+  "loyo": {
+   "tasa": 0.1714046822742475,
+   "precision": 0.6536585365853659,
+   "pod": 0.24572127139364303,
+   "pofd": 0.1091188524590164,
+   "peirce": 0.13660241893462663,
+   "base": 0.4559643255295429
+  },
+  "tasa_por_provincia": {
+   "Buenos Aires": 0.154,
+   "Catamarca": 0.154,
+   "Chaco": 0.154,
+   "Chubut": 0.154,
+   "Córdoba": 0.154,
+   "Corrientes": 0.154,
+   "Entre Ríos": 0.154,
+   "Formosa": 0.154,
+   "Jujuy": 0.154,
+   "La Pampa": 0.154,
+   "La Rioja": 0.154,
+   "Mendoza": 0.154,
+   "Misiones": 0.154,
+   "Neuquén": 0.154,
+   "Río Negro": 0.154,
+   "Salta": 0.154,
+   "San Juan": 0.154,
+   "San Luis": 0.154,
+   "Santa Cruz": 0.154,
+   "Santa Fe": 0.154,
+   "Santiago del Estero": 0.154,
+   "Tierra del Fuego, Antártida e Islas del Atlántico Sur": 0.154,
+   "Tucumán": 0.154
+  },
+  "nacional_meses": 2,
+  "delta_ER_ago2020": false,
+  "dif_peirce_vs_A_loyo": {
+   "media": -0.12421837308848996,
+   "ic95": [
+    -0.179418056011569,
+    -0.07275145793996259
+   ]
+  },
+  "peirce_loyo_ic95": [
+   0.07584660324872194,
+   0.19875569924231418
+  ]
+ },
+ "T_P": {
+  "v3": {
+   "Buenos Aires": 0.9798198461538461,
+   "Catamarca": 0.9916321637717121,
+   "Chaco": 0.9264081239040529,
+   "Chubut": 0.9955637662531017,
+   "Córdoba": 0.9402440640709192,
+   "Corrientes": 0.9328127386103782,
+   "Entre Ríos": 0.9493766256410255,
+   "Formosa": 0.9463696426799008,
+   "Jujuy": 0.9738998957816377,
+   "La Pampa": 0.9683162441687345,
+   "La Rioja": 0.9659973846153846,
+   "Mendoza": 0.965551385168303,
+   "Misiones": 0.9238123454094294,
+   "Neuquén": 0.9887226967741936,
+   "Río Negro": 0.9878721369727048,
+   "Salta": 0.9239338512820513,
+   "San Juan": 0.9836997071960297,
+   "San Luis": 0.9665052688084746,
+   "Santa Cruz": 0.9746357245657568,
+   "Santa Fe": 0.9239711672456576,
+   "Santiago del Estero": 0.9759660496277915,
+   "Tierra del Fuego, Antártida e Islas del Atlántico Sur": 0.9463841363422092,
+   "Tucumán": 0.946410027173913
+  },
+  "v4": {
+   "Buenos Aires": 0.9863229022731885,
+   "Catamarca": 1.0002915541770059,
+   "Chaco": 0.9018986186931347,
+   "Chubut": 0.988420209704391,
+   "Córdoba": 0.9273546216555184,
+   "Corrientes": 0.9242187717121588,
+   "Entre Ríos": 0.9261829572649573,
+   "Formosa": 0.9548106525180682,
+   "Jujuy": 0.95579829271856,
+   "La Pampa": 0.9730758511166253,
+   "La Rioja": 0.9240061441235589,
+   "Mendoza": 0.9376863235168951,
+   "Misiones": 0.8873688089330025,
+   "Neuquén": 0.9785500496277916,
+   "Río Negro": 0.9781569354838711,
+   "Salta": 0.9174571902398676,
+   "San Juan": 0.9603020333536296,
+   "San Luis": 0.9412612096774193,
+   "Santa Cruz": 0.9761369963606286,
+   "Santa Fe": 0.9301894357792744,
+   "Santiago del Estero": 0.9239858994437061,
+   "Tierra del Fuego, Antártida e Islas del Atlántico Sur": 0.9446220322580645,
+   "Tucumán": 0.9145686666666666
+  }
+ }
+}

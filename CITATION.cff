@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this method, calibration or code, please cite it as below."
+title: "Ecoregion-based Fire Weather Index danger classes for Argentina: pre-registered rules, calibration and out-of-sample evaluation (GEOFUEGO fire-danger semaphore, method package)"
+version: 1.0.0
+date-released: "2026-11-17"
+doi: "10.5281/zenodo.24326196"
+url: "https://geofuego.com.ar/metodo/"
+repository-code: "https://github.com/germankovacevic-lab/fwi-ecoregional-method-package"
+license: CC-BY-4.0
+authors:
+  - family-names: Kovacevic
+    given-names: "Germán Ricardo"
+    orcid: "https://orcid.org/0009-0007-4270-1963"
+    affiliation: "AgentNeo, Buenos Aires, Argentina (GEOFUEGO and Copernicus.com.ar projects)"
+keywords: [wildfire, fire danger rating, fire weather index, FWI, ecoregions, Argentina, ERA5, VIIRS, FIRMS, danger classes, regional thresholds, pre-registration, out-of-sample evaluation, Peirce skill score]

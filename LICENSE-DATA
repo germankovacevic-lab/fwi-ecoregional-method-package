@@ -1,0 +1,18 @@
+Documents, calibration and derived data in this package — the method notes (PDF), the rules and method documents,
+calibration/fwi_ecorregional.json, the evaluation outputs, the figures and the series under data/ — are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Kovacevic, G. R. (2026). Ecoregion-based Fire Weather Index danger classes for Argentina: pre-registered
+rules, calibration and out-of-sample evaluation (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.24326196
+
+Code (engine/ and scripts/) is under the MIT License (LICENSE-MIT).
+
+Third-party material, which keeps its own terms:
+- geo/ecorregiones_MAyDS_2021_original.geojson: official ecoregion layer of Argentina's Ministry of Environment and
+  Sustainable Development, redistributed unmodified under the licence declared by its map service ("Creative Commons",
+  free licence). See geo/FUENTE_ecorregiones.txt. The simplified layer is derived from it.
+- data/era5_meteo_points and data/fwi_era5_points contain modified Copernicus Climate Change Service information (ERA5).
+- data/live_emulated_points is derived from Open-Meteo data (CC BY 4.0).
+- Fire detections used to derive weights and thresholds: NASA FIRMS, VIIRS S-NPP 375 m (not redistributed).
+
+GEOFUEGO is a trademark of the author. This license does not grant rights to use the name.
